@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5943399D18EF12E100FC0B7F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5943399C18EF12E100FC0B7F /* Cocoa.framework */; };
+		594339A718EF12E100FC0B7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 594339A518EF12E100FC0B7F /* InfoPlist.strings */; };
+		594339A918EF12E100FC0B7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 594339A818EF12E100FC0B7F /* main.m */; };
+		594339AD18EF12E100FC0B7F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 594339AB18EF12E100FC0B7F /* Credits.rtf */; };
+		594339B018EF12E100FC0B7F /* MTGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 594339AF18EF12E100FC0B7F /* MTGAppDelegate.m */; };
+		594339B318EF12E100FC0B7F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 594339B118EF12E100FC0B7F /* MainMenu.xib */; };
+		594339B518EF12E100FC0B7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 594339B418EF12E100FC0B7F /* Images.xcassets */; };
+		594339BC18EF12E100FC0B7F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594339BB18EF12E100FC0B7F /* XCTest.framework */; };
+		594339BD18EF12E100FC0B7F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5943399C18EF12E100FC0B7F /* Cocoa.framework */; };
+		594339C518EF12E100FC0B7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 594339C318EF12E100FC0B7F /* InfoPlist.strings */; };
+		594339C718EF12E200FC0B7F /* ModelToGLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 594339C618EF12E200FC0B7F /* ModelToGLTests.m */; };
+		594339D218EF134600FC0B7F /* MTGFileWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 594339D118EF134600FC0B7F /* MTGFileWriter.m */; };
+		594339D518EF136B00FC0B7F /* MTGWavefrontParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 594339D418EF136B00FC0B7F /* MTGWavefrontParser.m */; };
+		594339D718EF258A00FC0B7F /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594339D618EF258A00FC0B7F /* GLKit.framework */; };
+		FADEB03F18F2AE7F002F1C00 /* MTGDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = FADEB03E18F2AE7F002F1C00 /* MTGDragView.m */; };
+		FADEB04518F2AEDB002F1C00 /* MTGRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADEB04418F2AEDB002F1C00 /* MTGRootController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		594339BE18EF12E100FC0B7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5943399118EF12E100FC0B7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5943399818EF12E100FC0B7F;
+			remoteInfo = ModelToGL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5943399918EF12E100FC0B7F /* ModelToGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModelToGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5943399C18EF12E100FC0B7F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5943399F18EF12E100FC0B7F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		594339A018EF12E100FC0B7F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		594339A118EF12E100FC0B7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		594339A418EF12E100FC0B7F /* ModelToGL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModelToGL-Info.plist"; sourceTree = "<group>"; };
+		594339A618EF12E100FC0B7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		594339A818EF12E100FC0B7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		594339AA18EF12E100FC0B7F /* ModelToGL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ModelToGL-Prefix.pch"; sourceTree = "<group>"; };
+		594339AC18EF12E100FC0B7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		594339AE18EF12E100FC0B7F /* MTGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTGAppDelegate.h; sourceTree = "<group>"; };
+		594339AF18EF12E100FC0B7F /* MTGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTGAppDelegate.m; sourceTree = "<group>"; };
+		594339B218EF12E100FC0B7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		594339B418EF12E100FC0B7F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		594339BA18EF12E100FC0B7F /* ModelToGLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModelToGLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		594339BB18EF12E100FC0B7F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		594339C218EF12E100FC0B7F /* ModelToGLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModelToGLTests-Info.plist"; sourceTree = "<group>"; };
+		594339C418EF12E100FC0B7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		594339C618EF12E200FC0B7F /* ModelToGLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelToGLTests.m; sourceTree = "<group>"; };
+		594339D018EF134600FC0B7F /* MTGFileWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTGFileWriter.h; sourceTree = "<group>"; };
+		594339D118EF134600FC0B7F /* MTGFileWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTGFileWriter.m; sourceTree = "<group>"; };
+		594339D318EF136B00FC0B7F /* MTGWavefrontParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTGWavefrontParser.h; sourceTree = "<group>"; };
+		594339D418EF136B00FC0B7F /* MTGWavefrontParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTGWavefrontParser.m; sourceTree = "<group>"; };
+		594339D618EF258A00FC0B7F /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		FADEB03D18F2AE7F002F1C00 /* MTGDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTGDragView.h; sourceTree = "<group>"; };
+		FADEB03E18F2AE7F002F1C00 /* MTGDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTGDragView.m; sourceTree = "<group>"; };
+		FADEB04318F2AEDB002F1C00 /* MTGRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTGRootController.h; sourceTree = "<group>"; };
+		FADEB04418F2AEDB002F1C00 /* MTGRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTGRootController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5943399618EF12E100FC0B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594339D718EF258A00FC0B7F /* GLKit.framework in Frameworks */,
+				5943399D18EF12E100FC0B7F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594339B718EF12E100FC0B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594339BD18EF12E100FC0B7F /* Cocoa.framework in Frameworks */,
+				594339BC18EF12E100FC0B7F /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5943399018EF12E100FC0B7F = {
+			isa = PBXGroup;
+			children = (
+				594339A218EF12E100FC0B7F /* ModelToGL */,
+				594339C018EF12E100FC0B7F /* ModelToGLTests */,
+				5943399B18EF12E100FC0B7F /* Frameworks */,
+				5943399A18EF12E100FC0B7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5943399A18EF12E100FC0B7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5943399918EF12E100FC0B7F /* ModelToGL.app */,
+				594339BA18EF12E100FC0B7F /* ModelToGLTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5943399B18EF12E100FC0B7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				594339D618EF258A00FC0B7F /* GLKit.framework */,
+				5943399C18EF12E100FC0B7F /* Cocoa.framework */,
+				594339BB18EF12E100FC0B7F /* XCTest.framework */,
+				5943399E18EF12E100FC0B7F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5943399E18EF12E100FC0B7F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5943399F18EF12E100FC0B7F /* AppKit.framework */,
+				594339A018EF12E100FC0B7F /* CoreData.framework */,
+				594339A118EF12E100FC0B7F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		594339A218EF12E100FC0B7F /* ModelToGL */ = {
+			isa = PBXGroup;
+			children = (
+				594339D318EF136B00FC0B7F /* MTGWavefrontParser.h */,
+				594339D418EF136B00FC0B7F /* MTGWavefrontParser.m */,
+				594339AE18EF12E100FC0B7F /* MTGAppDelegate.h */,
+				594339AF18EF12E100FC0B7F /* MTGAppDelegate.m */,
+				594339D018EF134600FC0B7F /* MTGFileWriter.h */,
+				594339D118EF134600FC0B7F /* MTGFileWriter.m */,
+				FADEB03D18F2AE7F002F1C00 /* MTGDragView.h */,
+				FADEB03E18F2AE7F002F1C00 /* MTGDragView.m */,
+				FADEB04318F2AEDB002F1C00 /* MTGRootController.h */,
+				FADEB04418F2AEDB002F1C00 /* MTGRootController.m */,
+				594339B118EF12E100FC0B7F /* MainMenu.xib */,
+				594339B418EF12E100FC0B7F /* Images.xcassets */,
+				594339A318EF12E100FC0B7F /* Supporting Files */,
+			);
+			path = ModelToGL;
+			sourceTree = "<group>";
+		};
+		594339A318EF12E100FC0B7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				594339A418EF12E100FC0B7F /* ModelToGL-Info.plist */,
+				594339A518EF12E100FC0B7F /* InfoPlist.strings */,
+				594339A818EF12E100FC0B7F /* main.m */,
+				594339AA18EF12E100FC0B7F /* ModelToGL-Prefix.pch */,
+				594339AB18EF12E100FC0B7F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		594339C018EF12E100FC0B7F /* ModelToGLTests */ = {
+			isa = PBXGroup;
+			children = (
+				594339C618EF12E200FC0B7F /* ModelToGLTests.m */,
+				594339C118EF12E100FC0B7F /* Supporting Files */,
+			);
+			path = ModelToGLTests;
+			sourceTree = "<group>";
+		};
+		594339C118EF12E100FC0B7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				594339C218EF12E100FC0B7F /* ModelToGLTests-Info.plist */,
+				594339C318EF12E100FC0B7F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5943399818EF12E100FC0B7F /* ModelToGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594339CA18EF12E200FC0B7F /* Build configuration list for PBXNativeTarget "ModelToGL" */;
+			buildPhases = (
+				5943399518EF12E100FC0B7F /* Sources */,
+				5943399618EF12E100FC0B7F /* Frameworks */,
+				5943399718EF12E100FC0B7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModelToGL;
+			productName = ModelToGL;
+			productReference = 5943399918EF12E100FC0B7F /* ModelToGL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		594339B918EF12E100FC0B7F /* ModelToGLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594339CD18EF12E200FC0B7F /* Build configuration list for PBXNativeTarget "ModelToGLTests" */;
+			buildPhases = (
+				594339B618EF12E100FC0B7F /* Sources */,
+				594339B718EF12E100FC0B7F /* Frameworks */,
+				594339B818EF12E100FC0B7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				594339BF18EF12E100FC0B7F /* PBXTargetDependency */,
+			);
+			name = ModelToGLTests;
+			productName = ModelToGLTests;
+			productReference = 594339BA18EF12E100FC0B7F /* ModelToGLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5943399118EF12E100FC0B7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MTG;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Laughing Buddha Software";
+				TargetAttributes = {
+					594339B918EF12E100FC0B7F = {
+						TestTargetID = 5943399818EF12E100FC0B7F;
+					};
+				};
+			};
+			buildConfigurationList = 5943399418EF12E100FC0B7F /* Build configuration list for PBXProject "ModelToGL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5943399018EF12E100FC0B7F;
+			productRefGroup = 5943399A18EF12E100FC0B7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5943399818EF12E100FC0B7F /* ModelToGL */,
+				594339B918EF12E100FC0B7F /* ModelToGLTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5943399718EF12E100FC0B7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594339A718EF12E100FC0B7F /* InfoPlist.strings in Resources */,
+				594339B518EF12E100FC0B7F /* Images.xcassets in Resources */,
+				594339AD18EF12E100FC0B7F /* Credits.rtf in Resources */,
+				594339B318EF12E100FC0B7F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594339B818EF12E100FC0B7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594339C518EF12E100FC0B7F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5943399518EF12E100FC0B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADEB04518F2AEDB002F1C00 /* MTGRootController.m in Sources */,
+				594339D518EF136B00FC0B7F /* MTGWavefrontParser.m in Sources */,
+				594339A918EF12E100FC0B7F /* main.m in Sources */,
+				594339B018EF12E100FC0B7F /* MTGAppDelegate.m in Sources */,
+				FADEB03F18F2AE7F002F1C00 /* MTGDragView.m in Sources */,
+				594339D218EF134600FC0B7F /* MTGFileWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594339B618EF12E100FC0B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594339C718EF12E200FC0B7F /* ModelToGLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		594339BF18EF12E100FC0B7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5943399818EF12E100FC0B7F /* ModelToGL */;
+			targetProxy = 594339BE18EF12E100FC0B7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		594339A518EF12E100FC0B7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				594339A618EF12E100FC0B7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		594339AB18EF12E100FC0B7F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				594339AC18EF12E100FC0B7F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		594339B118EF12E100FC0B7F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				594339B218EF12E100FC0B7F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		594339C318EF12E100FC0B7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				594339C418EF12E100FC0B7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		594339C818EF12E200FC0B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		594339C918EF12E200FC0B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		594339CB18EF12E200FC0B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModelToGL/ModelToGL-Prefix.pch";
+				INFOPLIST_FILE = "ModelToGL/ModelToGL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		594339CC18EF12E200FC0B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModelToGL/ModelToGL-Prefix.pch";
+				INFOPLIST_FILE = "ModelToGL/ModelToGL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		594339CE18EF12E200FC0B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ModelToGL.app/Contents/MacOS/ModelToGL";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModelToGL/ModelToGL-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ModelToGLTests/ModelToGLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		594339CF18EF12E200FC0B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ModelToGL.app/Contents/MacOS/ModelToGL";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModelToGL/ModelToGL-Prefix.pch";
+				INFOPLIST_FILE = "ModelToGLTests/ModelToGLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5943399418EF12E100FC0B7F /* Build configuration list for PBXProject "ModelToGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594339C818EF12E200FC0B7F /* Debug */,
+				594339C918EF12E200FC0B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594339CA18EF12E200FC0B7F /* Build configuration list for PBXNativeTarget "ModelToGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594339CB18EF12E200FC0B7F /* Debug */,
+				594339CC18EF12E200FC0B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594339CD18EF12E200FC0B7F /* Build configuration list for PBXNativeTarget "ModelToGLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594339CE18EF12E200FC0B7F /* Debug */,
+				594339CF18EF12E200FC0B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5943399118EF12E100FC0B7F /* Project object */;
+}

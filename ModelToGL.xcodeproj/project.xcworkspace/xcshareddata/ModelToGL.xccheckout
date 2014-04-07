@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>70F01502-5AD9-4A8A-92E3-0C0C0341D821</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ModelToGL</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FDF436BA-0E62-469B-B01B-915F85742AEB</key>
+		<string>ssh://github.com/WickedLynx/ModelToGL.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ModelToGL.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FDF436BA-0E62-469B-B01B-915F85742AEB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/WickedLynx/ModelToGL.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FDF436BA-0E62-469B-B01B-915F85742AEB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FDF436BA-0E62-469B-B01B-915F85742AEB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ModelToGL</string>
+		</dict>
+	</array>
+</dict>
+</plist>
